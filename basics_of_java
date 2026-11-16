@@ -106,3 +106,90 @@ Operator           	Meaning                   	Example
 *                    Multiplication                10 * 5 = 50
 /	                   Division	                     10 / 5 = 2
 %	                   Modulus (remainder)	         10 % 3 = 1
+
+import java.util.Scanner;
+public class Operators {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        System.out.println("\nArithmetic:");
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        if (b != 0) {
+            System.out.println("Division: " + (a / b));
+            System.out.println("Modulus: " + (a % b));
+        }
+}
+}
+
+RELATIONAL OPERATOR:
+
+Operator	Name	    Example
+==	   Equal to	1       0 == 10 → true
+!=	   Not equal to	   10 != 5 → true
+>	  Greater than	   10 > 5 → true
+<	  Less than	        5 < 10 → true
+>=	  Greater than or equal	10 >= 10 → true
+<=	  Less than or equal	5 <= 10 → true
+
+
+import java.util.Scanner;
+
+public class Relational {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        System.out.println("Equal: " + (a == b));
+        System.out.println("Not Equal: " + (a != b));
+        System.out.println("Greater Than: " + (a > b));
+        System.out.println("Less Than: " + (a < b));
+        System.out.println("Greater or Equal: " + (a >= b));
+        System.out.println("Less or Equal: " + (a <= b));
+
+        sc.close();
+    }
+}
+
+3.Logical operator:
+
+Operator	Name
+&&	     Logical AND
+||	     Logical OR
+!	     NOT Operator
+
+/*import java.util.Scanner;
+
+public class Operators {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        System.out.println("\nLogical:");
+        System.out.println(a > b && a!=b);
+        System.out.println(a < b || a==b);
+         System.out.println(!(a<b));
+    }
+}*/
+
+INPUT:
+Enter first number: 23
+Enter second number: 34
+
+OUTPUT:
+Logical:
+false
+true
+false
