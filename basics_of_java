@@ -95,3 +95,14 @@ Float: 10.5
 Double: 25.6789
 Char: A
 Boolean: true
+
+OPERATORS:
+
+1.Arithmetic Operators
+Used to perform mathematical operations.
+Operator           	Meaning                   	Example
++                  	 Addition	                     10 + 5 = 15
+-	                   Subtraction	                 10 - 5 = 5
+*                    Multiplication                10 * 5 = 50
+/	                   Division	                     10 / 5 = 2
+%	                   Modulus (remainder)	         10 % 3 = 1
