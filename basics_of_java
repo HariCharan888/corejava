@@ -31,3 +31,14 @@ variables rules
 6. Variable names are case-sensitive.
 7. Can contain letters, digits, underscores and dollar signs after the first character.
 8. Variable names can be of any length.
+
+Methid Explanation
+scanner method       example      Return type
+nextInt()            25            int
+nextLong()           987654321L     long
+nextFloat()          85.5f          float
+nextDouble()         25000.75      double
+next()               venu          string
+nextLine()           hello java    string
+next().charAt(0)     A             char
+nextBoolean()        true         Boolean
