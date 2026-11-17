@@ -1,0 +1,81 @@
+control statements: 3 types
+
+Types of Control Statements:
+
+1. Decision-Making Statements(conditional)
+
+if, if-else, else-if, nested if, switch
+
+2. Looping Statements
+
+for, while, do-while, enhanced for
+
+3. Jump Statements
+
+break, continue, return
+
+  1. Decision-Making Statements
+These statements execute code based on conditions.
+
+  A. if statement :
+Executes code when the condition is true.
+  
+public class Main {
+    public static void main(String[] args) {
+        int age = 18;
+
+        if (age >= 18) {
+            System.out.println("Eligible");
+        }
+    }
+}
+  B. if-else statement :
+Executes one block if true and another if false.
+int num = 10;
+
+if (num % 2 == 0) {
+    System.out.println("Even");
+} else {
+    System.out.println("Odd");
+}
+
+  C. else-if ladder :
+Checks multiple conditions.
+int marks = 85;
+if (marks >= 90) {
+    System.out.println("A Grade");
+} else if (marks >= 75) {
+    System.out.println("B Grade");
+} else if (marks >= 50) {
+    System.out.println("C Grade");
+} else {
+    System.out.println("Fail");
+}
+
+D. Nested if
+An if statement inside another if statement.
+int age = 20;
+int marks = 80;
+
+if (age >= 18) {
+    if (marks >= 50) {
+        System.out.println("Eligible");
+    }
+}
+
+E. switch statement
+Used to select one option from multiple cases.
+int day = 2;
+
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+
+    case 2:
+        System.out.println("Tuesday");
+        break;
+
+    default:
+        System.out.println("Invalid day");
+}
