@@ -66,6 +66,73 @@ public class Main {
     }
 }
 
+OOPS CONCEPTS
 
+Types of classes:
 
+1.concrete classs
+2.abstract class
+3.final class
+4.static nested class
+5.inner class
+6.Ananomous class
+7.enum class
+8.local class
+9.interface 
 
+Difference Between Constructors
+Type	                 Description
+
+Default	        Provided by compiler if no constructor is declared
+No-Argument	    Created by programmer without parameters
+Parameterized	Accepts parameters
+
+Pillars of oops:
+
+-> Encapsulation	Data Hiding
+-> Inheritance	    Code Reusability
+-> Polymorphism	    Many Forms
+-> Abstraction	    Hiding Implementation
+
+Access Modifiers Comparison:
+
+1.public
+2.private
+3.protect
+4.default
+
+functions in java:
+1.with parameters with return type
+2.with parameter without return type
+3.without parameter with return type
+4.wihtout parameter without return type
+
+STATIC METHOD:
+
+class Main {
+
+    static void add(int a, int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+
+    public static void main(String[] args) {
+
+        Main.add(10, 20);
+    }
+}
+
+NON STATIC:
+
+class Main {
+
+    void add(int a, int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+
+    public static void main(String[] args) {
+
+        Main obj = new Main();
+
+        obj.add(10, 20);
+    }
+}
