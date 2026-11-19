@@ -136,3 +136,64 @@ class Main {
         obj.add(10, 20);
     }
 }
+
+
+concentrete class:
+
+public class mits {
+    int id;
+    String name;
+    double cgpa;
+
+    void display() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("CGPA: " + cgpa);
+    }
+
+    public static void main(String args[]) {
+        mits student1 = new mits();
+        student1.id = 101;
+        student1.name = "John Doe";
+        student1.cgpa = 3.75;
+        student1.display();
+    }
+}
+
+ABSTRACT CLASS:
+
+abstract class mits {
+
+    abstract void display();
+
+    void venu() {
+        System.out.println("Welcome to MITS University!");
+    }
+}
+
+class Student extends mits {
+
+    int id;
+    String name;
+    double cgpa;
+
+    void display() {
+        System.out.println("Student ID: " + id);
+        System.out.println("Student Name: " + name);
+        System.out.println("CGPA: " + cgpa);
+    }
+}
+
+class Main {
+    public static void main(String args[]) {
+
+        Student student1 = new Student();
+
+        student1.id = 101;
+        student1.name = "John Doe";
+        student1.cgpa = 3.75;
+
+        student1.venu();
+        student1.display();
+    }
+}
